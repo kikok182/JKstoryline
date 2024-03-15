@@ -1,0 +1,284 @@
+:: StoryTitle
+KAELA DEBUT
+
+
+:: StoryData
+{
+  "ifid": "1C0CC4FB-51B8-41FB-B888-A1E87002F054",
+  "format": "Harlowe",
+  "format-version": "3.3.7",
+  "start": "UNDERGROUND CAVE HOUSE",
+  "tag-colors": {
+    "ASDA": "red",
+    "ASDAAS": "orange"
+  },
+  "zoom": 0.3
+}
+
+
+:: A HQ {"position":"1400,475","size":"100,100"}
+
+
+
+:: B HQ {"position":"1400,600","size":"100,100"}
+
+
+
+:: BAD END 1 {"position":"525,400","size":"100,100"}
+
+
+
+:: BAD END 2 {"position":"1725,275","size":"100,100"}
+
+
+
+:: C HQ {"position":"1400,725","size":"100,100"}
+
+
+
+:: CAVE ALLEYWAY {"position":"1025,600","size":"100,100"}
+
+
+
+:: CAVE ENTRANCE {"position":"1625,1125","size":"100,100"}
+
+
+
+:: CAVE PASSAGE {"position":"900,600","size":"100,100"}
+
+
+
+:: CITY REPLICA {"position":"1275,600","size":"100,100"}
+
+
+
+:: CLIFF {"position":"2250,650","size":"100,100"}
+
+
+
+:: D HQ {"position":"1400,850","size":"100,100"}
+
+
+
+:: DEFF {"position":"1625,600","size":"100,100"}
+
+
+
+:: ENEMY HQ {"position":"2500,525","size":"100,100"}
+
+
+
+:: ENEMY ROOM {"position":"2625,525","size":"100,100"}
+
+
+
+:: EXPLORE {"position":"1625,850","size":"100,100"}
+
+
+
+:: FIELD {"position":"2250,450","size":"100,100"}
+
+
+
+:: FIELD IN THE CAVE {"position":"1150,600","size":"100,100"}
+
+
+
+:: FORREST A {"position":"2000,525","size":"100,100"}
+
+
+
+:: FORREST B {"position":"2375,525","size":"100,100"}
+
+
+
+:: HERO VILLAGE (CHARGE) {"position":"400,500","size":"100,100"}
+anda akan menghajar bangsawan, tapi ditahan oleh ksatria..dan ahirnya kau mendapat luka dan pulang dengan kecewa, 
+reputasi bangsawan sekitar menjadi minus
+
+[[HOME 1]]
+
+
+
+:: HERO VILLAGE (GO) {"position":"400,675","size":"100,100"}
+karena anda bijak anda akan mendapat sedikit pengakuan dari teman dan bangsawan,
+anda mendapatkan stat tambahan 
+
+[[HOME 1]]
+
+
+
+:: HOME {"position":"125,575","size":"100,100"}
+[[SUBURBAN ALLEY]] 
+
+
+:: HOME 1 {"position":"525,600","size":"100,100"}
+SESAMPAI NYA DI RUMAH ANDA MENCERITAKAN KEJADIAN TADI DENGAN IBU DAN IBU MENGOBATI JIKA TERLUKA.,
+SETELAH ITU SANG IBU MENYURUH TIDUR.
+
+DAN KESOKAN HARINYA ANDA AKAN DISAMPER TEMEN TEMEN UNTUK BERMAIN PEDANG PEDANGAN
+
+
+(if:(history: where its name contains "hajar")'s length is 1)[TETAPI LUKA ANDA KEMARIN MENJADI SANGAT PARAH DAN AHIRNYA PERGI KE DOKTER, DAN MENJADI CACAT.
+DAN AHIRNYA IBU ANDA SEDIH LALU BANGSAWAN PUN DATANG DAN MENGUSIR KALIAN, LALAU TAMAT [[BAD END 1]]]
+
+(if:(history: where its name contains "pergi")'s length is 1)[PERGI BERMAIN PEDANG DI TEMPAT KEMARIN BERSAMA TEMAN TEMAN [[SUBURBAN FIELD]]]
+
+
+:: KING A ROOM {"position":"1900,875","size":"100,100"}
+
+
+
+:: MAIN HQ {"position":"1625,1000","size":"100,100"}
+
+
+
+:: MAIN HQ HERO ELDER {"position":"2050,875","size":"100,100"}
+
+
+
+:: OUTSIDE THE CAVE {"position":"1875,525","size":"100,100"}
+
+
+
+:: PRISON ROOM IN THE CAVE {"position":"775,600","size":"100,100"}
+HARI KE 1
+TERBANGUN DI DALAM GUA, SEMUA SENJATA DAN BARANG HILANG,
+-quest pertama , liat disekitar dalam kegelapan dengan darah yg tipis
+-cari makanan buat nambah darah, bisa ambil rumput atau kalahkan ular kecil
+lalu pingsan karena digigit ular besar jika mencapai area tertentu
+
+HARI KE 2
+TERBANGUN DENGAN DARAH YANG SEDIKIT LAGI
+MENCARI MAKANAN LAGI SAMBIL KERACUNAN
+DAN PERLAHAN RUANGAN MENJADI AGAK JELAS SEDIKIT
+DAN PINGSAN KETIKA MELIHAT ADA JENIS TANAMAN YG BERSINAR
+
+HARI KE 3
+TERBANGUN DENGAN DARAH YANG SEDIKIT LAGI
+MISI DEKATI TANAMAN, SETELAH SAMPAI DIBERI PILIHAN APAKAH AKAN MEMAKAN NYA DAN MENGHILANGKAN RACUN, ATAU TRUS BERTAHAN HINGGA TUBUH KEBAL DARI RACUN,
+
+JIKA MEMAKAN MAKA AKAN MEDITASI HINGGA RACUN HILANG
+JIKA TIDAK MAKA AKAN PINGSAN KEMBALI
+
+HARI KE 4
+TERBANGUN DENGAN DARAH YANG SEDIKIT LAGI DAN BERACUN/TIDAK
+JELAJAHI RUANGAN HINGGA MENEMUKAN PINTU KELUAR RUANGAN.
+
+QUEST
+GRINDING HINGGA LV TERTENTU AGAR BISA HANCURKAN PINTU
+SIDE QUEST KALAHKAN 10 ULAR
+DAN 1 ULAR GEDE
+KUMPULKAN BEBERAPA TUMBUHAN
+
+SETELAH PINTU HANCUR,
+KELUAR DAN JELAHI RUANGAN LAIN.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: RIVER {"position":"2125,525","size":"100,100"}
+
+
+
+:: SCOUT {"position":"1625,725","size":"100,100"}
+
+
+
+:: SECRET HIDDEN PASSAGE {"position":"2175,875","size":"100,100"}
+
+
+
+:: SNAKE NEST {"position":"1625,1250","size":"100,100"}
+
+
+
+:: SNAKE QUEEN'S NEST {"position":"1625,1375","size":"100,100"}
+
+
+
+:: STEAL FOOD {"position":"1625,475","size":"100,100"}
+
+
+
+:: SUBURBAN ALLEY {"position":"250,575","size":"100,100"}
+
+di sebuah kota
+anak anak pinggiran sedang bermain petak umpet
+tiba tiba ada anak bangsawan dengan ksatria nya, meledek anak anak miskin, dan menyuruh pergi anak anak
+
+menghajar [[HERO VILLAGE (CHARGE)]] jika menghajar tidak akan mendapat apa apa
+atau
+pergi [[HERO VILLAGE (GO)]] jika pergi akan mendapatkan penambahan stat
+
+
+
+
+
+
+
+:: SUBURBAN FIELD {"position":"650,600","size":"100,100"}
+BERMAIN PEDANG BERSAMA KAWAN DAN MENDAPATKAN EXP
+TIBA ADA ANAK BANGSAWAN BERSAMA ANAK ANAK LAIN DA+ TANPA PENJAGA
+MENGAJAK BERTANDING ANTARA ANAK BUAH NYA,
+
+JIKA MENANG AKAN MENDAPATKAN EXP DAN DROPAN 
+LALU ANAK BANGSAWAN MENGAJAK DUEL DAN BERJANJI AKAN MEMBERIKAN BARANG NYA , BEBAS PILIH SENJATA, TAPI SETELAH KALAH, MALAH BERBOHONG, DAN MENYURUH TEMAN YG PALING JAGO UNTUK DUEL
+JIKA MENANG TEMAN ANAK BANGSAWAN MEMBERIKAN MEMBUJUK ANAK BANGSAWAN UNTUK MEMBERIKAN HADIAH.
+
+JIKA KALAH 
+ANDA DIBERI PILIHAN UNTUK BERDUEL 
+JIKA MENERIMA.
+LALU ANAK BANGSAWAN MENGAJAK DUEL DAN BERJANJI AKAN MEMBERIKAN BARANG NYA , BEBAS PILIH SENJATA, TAPI SETELAH KALAH, MALAH BERBOHONG, DAN MENYURUH TEMAN YG PALING JAGO UNTUK DUEL
+JIKA MENANG TEMAN ANAK BANGSAWAN MEMBERIKAN MEMBUJUK ANAK BANGSAWAN UNTUK MEMBERIKAN HADIAH.
+JIKA MENOLAK.
+
+LALU PARA ASSASIN DATANG 3 ORANG UNTUK MENCULIK ANAK ANAK,
+1 ORANG MEMBAWA 1 ANAK,
+ANAK BUAH BANGSAWAN TERSELAMATKAN KARENA ASSASIN NYA DIBUNUH LANGSUNG, ANAK BANGSAWAN JUGA SAMA TERSELAMATKAN DI AKHIR
+
+
+SINGKAT CERITA SILAHKAN PIKIRKAN KONSEP DICULIKNYA
+
+LALU PERGI KE [[PRISON ROOM IN THE CAVE]]
+
+
+
+:: UNDERGROUND CAVE HOUSE {"position":"0,575","size":"100,100"}
+DI RUANG BAWAH TANAH RUMAH SENDIRI
+ANDA SEDANG BERLATIH MELAWAN TIKUS DAN SEJENISNYA,
+LEVELLING DAN MENDAPAT BEBERAPA DROP.
+
+SETELAH SELESAI ANDA PERGI KELUAR RUANG BAWAH TANAH, DAN TIBA TIBA TEMAN ANDA NYAMPER, DAN PERGI BERMAIN
+
+[[HOME]] 
